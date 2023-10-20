@@ -1,0 +1,30 @@
+ 1. Write a blog on Difference between HTTP1.1 vs HTTP2
+
+    HTTP: Hyper Text Transfer Protocol
+        Web communication between client/browser and the server
+        Request and Transfer data by sending request from client to server and by receiving response from server to client
+
+ HTTP 1.1 :-
+
+    1. It loads resources one after the other i.e first request and its response came then second request starts
+    2. If previous response is failed / not loaded then it blocks other upcoming request also
+    3. It process the text commands to complete req-response cycles
+    4. Released in 1997
+    5. High level compatibility with header fields
+    
+
+HTTP 2 :-
+
+    1. It send multiple request in a single connection 
+    2. No resources block any other resource because its not dependent on previous response 
+    3. It uses binary commands to execute the same task
+    4. Released in 2015
+    5. It uses header compression HPACK to reduce overhead
+
+
+
+
+
+
+
+   

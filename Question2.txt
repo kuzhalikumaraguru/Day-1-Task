@@ -1,0 +1,31 @@
+2. Write a blog about objects and its internal representation in Javascript 
+
+    Number, boolean, string are the primitive data types whether Objects and Array are non-primitive data types
+i.e complex data types.
+
+    Objects hold many values in the form of Key: Value pairs 
+
+Syntax of creating objects :- 
+
+    1. Syntax1 :
+            let objName = { key/propertyName: value/propertyvalue, key/propertyName: value/propertyvalue}
+
+        ex: let details = {name: 'kuzhali', age:26,  gender:'female'}
+
+        These values can be accessed by 
+                syntax -> objName.propertyName = propertyvalue;
+                          objName["propertyName"] = propertyvalue;
+
+                ex -> details.name = "kuzhali";
+                      details['age'] = 26;
+
+    2. Syntax2 :
+            var objName = new Object();
+            objName.name = "kuzhali";
+            objName.age = 26;
+            objName.gender = "female";
+
+
+Syntax of deleting objects :-
+
+    delete objName.propertyName
